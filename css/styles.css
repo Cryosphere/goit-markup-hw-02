@@ -8,8 +8,8 @@
 
 }
 body {
-        font-family: 'Roboto';
-        
+        font-family: 'Roboto', sans-serif;
+        color:var(--main-text-color)        
         
 }
 
@@ -80,6 +80,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    cursor: pointer;
 }
 .hero-header {
     font-weight: 900;
@@ -100,7 +101,6 @@ body {
         text-transform: uppercase;
 }
 .features-text{
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -133,15 +133,12 @@ body {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
-        text-align: center;
         letter-spacing: 0.03em;
 }
 .command-list-item{
-    background-color: var(--main-bg-color);
-    font-weight: 400;
+        background-color: var(--main-bg-color);
         font-size: 16px;
         line-height: 19px;
-        text-align: center;
         letter-spacing: 0.03em;
 
 }
@@ -171,7 +168,8 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         background-color: #F5F4FA;
-        counter-reset: var(--main-text-color);
+        color: var(--main-text-color);
+        cursor: pointer;
 
 }
 .button-filter:hover, .button-filter:focus{
@@ -180,7 +178,7 @@ body {
 }
 
 .projects{
-    list-style-type: none;
+        list-style-type: none;
 }
 
 .project-item>h2{
@@ -192,7 +190,6 @@ body {
 }
 
 .project-item>p{
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
@@ -201,7 +198,7 @@ body {
 /* Footer styles */
 
 .footer {
-    background-color: var(--secondary-bg-color);
+        background-color: var(--secondary-bg-color);
     
 }
 .address{
