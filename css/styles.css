@@ -35,11 +35,11 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
-.nav-list a{
+.nav-list .link{
     text-decoration: none;
     color:var(--main-text-color);
 }
-.nav-list a:hover,a:focus{
+.nav-list .link:hover,.nav-list .link:focus{
     color:var(--accent-color);
 
 }
@@ -81,12 +81,14 @@ body {
     font-size: 16px;
     line-height: 1.88;
     cursor: pointer;
+    letter-spacing: 0.06em;
 }
 .hero-header {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Features styles */
@@ -94,7 +96,6 @@ body {
 }
 
 .features-header{
-        font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
@@ -114,7 +115,6 @@ body {
 }
 
 .services-header{
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
@@ -130,7 +130,6 @@ body {
     list-style-type: none;
 }
 .command-header{
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         letter-spacing: 0.03em;
@@ -143,15 +142,11 @@ body {
 
 }
 .command-list-item>h3{
+        font-size: 16px;
         font-weight: 500;
         color: var(--main-text-color);
 }
 .command-list-item>p{
-        /*font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        letter-spacing: 0.03em;*/
         color: var(--text-color);
 }
 
@@ -182,7 +177,6 @@ body {
 }
 
 .project-item>h2{
-        font-weight: 700;
         font-size: 18px;
         line-height: 2.0;
         letter-spacing: 0.06em;
@@ -203,11 +197,13 @@ body {
 }
 .address{
         font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
     
+}
+.address-list{
+    list-style-type: none;
 }
 .address-to{
     color:var(--secondary-text-color);
